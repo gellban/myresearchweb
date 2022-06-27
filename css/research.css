@@ -1,0 +1,92 @@
+/* Styling the area of the slides */
+     
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Style each of the sides
+with a fixed width and height */
+
+.slide {
+  float: left;
+  height: 666px;
+  width: 1000px;
+  color: black;
+  align-items: center;
+  background: no-repeat;
+}
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+   
+  /* Calculate the total width on the
+basis of number of slides */
+  width: calc(1000px * 6);
+   
+  /* Specify the animation with the
+duration and speed */
+  animation: slide 20s ease infinite;
+}
+
+/* Set the background color
+of each of the slides */
+
+.slide:nth-child(1) {
+  background-image:  url("../img/pac.png");
+
+
+}
+
+.slide:nth-child(2) {
+  background-image:  url("../img/google_trend.png");
+}
+
+.slide:nth-child(3) {
+  background-image:  url("../img/livedi.png");
+}
+
+.slide:nth-child(4) {
+  background-image:  url("../img/nirec.png");
+}
+
+
+.slide:nth-child(5) {
+  background-image:  url("../img/robo.png");
+}
+
+.slide:nth-child(6) {
+  background-image:  url("../img/twitter_vs_news.png");
+}
+
+/* Define the animation
+for the slideshow */
+
+@keyframes slide {
+   
+  /* Calculate the margin-left for
+each of the slides */
+  15% {
+      margin-left: 0px;
+  }
+  30% {
+      margin-left: calc(-1000px * 1);
+  }
+  45% {
+      margin-left: calc(-1000px * 2);
+  }
+  60% {
+      margin-left: calc(-1000px * 3);
+  }
+  75% {
+      margin-left: calc(-1000px * 4);
+  }
+
+  90% {
+    margin-left: calc(-1000px * 5);
+  }
+
+}

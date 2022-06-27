@@ -1,0 +1,111 @@
+/* .header{
+background-color: rgb(151, 148, 148);
+} */
+.nav{
+    right:0px;
+}
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+    color: black;
+    cursor: default;
+    /* background-color: rgb(187, 185, 185); */
+    border: 1px solid #dddddd;
+    border-bottom-color: transparent;
+}     
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: black;
+    cursor: default;
+    background-color: rgb(187, 185, 185);
+    border: 1px solid #dddddd;
+    border-bottom-color: transparent;
+}
+
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}   
+
+.tab-content{
+    margin-left: 10px;
+}
+
+.container-fluid{
+    width: 80%;
+}
+.header{
+    width:50%;
+}
+
+.menu{
+    width:80%;
+}
+
+.main{
+    width:100%;
+}
+
+
+/*home.html*/
+.linedList {
+    color: #444444;
+    text-shadow: 1px 1px 1px #ffffff;
+    text-align: left;
+    margin-left: 0px;
+} 
+
+ /* .my_photo img {
+    background: url("images/hashim_photo.jpg") no-repeat;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 300px; 
+}  */
+
+  /* Add a hover effect (blue shadow) */
+/* .my_photo img:hover {
+    background: url("images/hashim_photo_admin.png") no-repeat;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}  */
+
+.my_photo {
+    /* width: 130px;
+    height: 195px; */
+    position: relative;
+    display: inline-block;
+    /* margin: 50px; */
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 320px;          
+}
+.my_photo .hashim-img {
+    width: 300px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 300px; 
+   
+}    
+.my_photo .hashim-img-hover  {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 99;
+    width: 300px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 300px;         
+}
+.my_photo:hover .hashim-img-hover {
+    display: inline;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+  /**/
