@@ -1,0 +1,5 @@
+# ignore ALL .log files
+#*.log
+
+# ignore ALL files in ANY directory named how_to_browse
+how_to_browse/

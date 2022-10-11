@@ -4,5 +4,5 @@ git clone gellban/myresearchweb
 #push to repository
 git add --all
 git status
-git commit -m 'Update home and publications as on 10/02/2022'
+git commit -m 'Update home as on 10/02/2022 10:34am'
 git push
